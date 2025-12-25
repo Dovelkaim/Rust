@@ -67,6 +67,5 @@ let mut sum = 0;
       sum += i; 
     }
 sum
-    
 }
 
