@@ -49,7 +49,6 @@ impl Bank{
         let ti = to_idx as usize;
 
         if fi == ti {
-            // same account: just check balance
             if self.accounts[fi].balance >= amount {
                 tx.approve();
                 self.transactions.push(tx);
@@ -60,7 +59,6 @@ impl Bank{
             }
         }
 
-        // Borrow two distinct mutable references safely using split_at_mut
         if fi < ti {
             let (left, right) = self.accounts.split_at_mut(ti);
             let from_acc = &mut left[fi];
