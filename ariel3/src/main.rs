@@ -16,13 +16,13 @@ fn main() {
     };
     println!("{} is {} years old",p.name,p.age);
 
-    let mut numbers = [1,2,3,4,5,6,8,7,9,10];
+    let numbers = [1,2,3,4,5,6,8,7,9,10];
     for number in numbers{
         if number%2==0{
             println!("{}",number);
         }
     }
-    let mut number =[1,2,3,4,5];
+    let number =[1,2,3,4,5];
     println!("{}", addi(&number));
     
     let num :Vec<i32> = vec![1,2,3,4,5,6];
@@ -31,12 +31,20 @@ let num2 : Vec<i32> = vec![10,20,30,40,50,60,70,80];
 println!("{}", maxVect(&num2));
 
 
-let car1 = Car{
+let mut car1 = Car{
     color: String::from("Red"),
     model: String::from("Toyota"),
     year: 2020,
+    speed: 0,
 };
 println!("Car model: {}, color: {}, year: {}",car1.model, car1.color, car1.year);
+
+
+car1.print();
+car1.speed_up(50);
+car1.print();
+
+
 }
 
 
