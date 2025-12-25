@@ -1,7 +1,13 @@
+mod car;
+
+use car::Car;
+
 struct Person{
     name:String,
     age:i32,
 }
+
+
 
 fn main() {
     let p = Person{
@@ -23,6 +29,14 @@ fn main() {
     println!("{}", vect(&num)); 
 let num2 : Vec<i32> = vec![10,20,30,40,50,60,70,80];
 println!("{}", maxVect(&num2));
+
+
+let car1 = Car{
+    color: String::from("Red"),
+    model: String::from("Toyota"),
+    year: 2020,
+};
+println!("Car model: {}, color: {}, year: {}",car1.model, car1.color, car1.year);
 }
 
 
@@ -43,6 +57,7 @@ fn maxVect(v:&[i32])->i32{
     }
     max
 }
+
 
 
 
