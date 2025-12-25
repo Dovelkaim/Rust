@@ -21,7 +21,8 @@ fn main() {
     
     let num :Vec<i32> = vec![1,2,3,4,5,6];
     println!("{}", vect(&num)); 
-
+let num2 : Vec<i32> = vec![10,20,30,40,50,60,70,80];
+println!("{}", maxVect(&num2));
 }
 
 
@@ -32,6 +33,15 @@ fn vect(v:&[i32])->i32{
        sum+=i;
     }
     sum
+}
+fn maxVect(v:&[i32])->i32{
+    let mut max = 0;
+    for &i in v{
+        if i>max{
+            max=i;
+        }
+    }
+    max
 }
 
 
@@ -44,3 +54,4 @@ let mut sum = 0;
 sum
     
 }
+
