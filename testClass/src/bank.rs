@@ -15,11 +15,6 @@ impl Bank{
     pub fn add_account(&mut self, account:Account){
         self.account.push(account);
     }
-
-    pub fn add_transaction(&mut self, transaction:Transaction){
-        self.transaction.push(transaction);
-    }
-
     pub fn print(&self){
         println!("Bank name: {}", self.name);
         println!("Accounts:");
@@ -31,4 +26,13 @@ impl Bank{
             transaction.print();
         }
     }
+    pub fn find_account_index(&self, number: u32) -> u32 {
+        for (index, account) in self.account.iter().enumerate() {
+            if account.number == number {
+                return index as u32;
+            }
+        }
+        u32
+    }
+
 }
