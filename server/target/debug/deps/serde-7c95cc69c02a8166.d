@@ -1,0 +1,14 @@
+/Users/dovelkaim/Desktop/ariel/ariel2/server/target/debug/deps/serde-7c95cc69c02a8166.d: /Users/dovelkaim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/dovelkaim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/dovelkaim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/dovelkaim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/dovelkaim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/dovelkaim/Desktop/ariel/ariel2/server/target/debug/build/serde-3b2a2a49ff90b23d/out/private.rs
+
+/Users/dovelkaim/Desktop/ariel/ariel2/server/target/debug/deps/libserde-7c95cc69c02a8166.rlib: /Users/dovelkaim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/dovelkaim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/dovelkaim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/dovelkaim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/dovelkaim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/dovelkaim/Desktop/ariel/ariel2/server/target/debug/build/serde-3b2a2a49ff90b23d/out/private.rs
+
+/Users/dovelkaim/Desktop/ariel/ariel2/server/target/debug/deps/libserde-7c95cc69c02a8166.rmeta: /Users/dovelkaim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/dovelkaim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/dovelkaim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/dovelkaim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/dovelkaim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/dovelkaim/Desktop/ariel/ariel2/server/target/debug/build/serde-3b2a2a49ff90b23d/out/private.rs
+
+/Users/dovelkaim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs:
+/Users/dovelkaim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs:
+/Users/dovelkaim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs:
+/Users/dovelkaim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs:
+/Users/dovelkaim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs:
+/Users/dovelkaim/Desktop/ariel/ariel2/server/target/debug/build/serde-3b2a2a49ff90b23d/out/private.rs:
+
+# env-dep:OUT_DIR=/Users/dovelkaim/Desktop/ariel/ariel2/server/target/debug/build/serde-3b2a2a49ff90b23d/out
